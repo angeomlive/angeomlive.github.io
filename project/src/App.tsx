@@ -1,29 +1,65 @@
 import React, { useEffect, useState } from 'react'
 import { Group } from './types'
 import GroupPage from './pages/GroupPage'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import 'katex/dist/katex.min.css'
-import HomePage from "./pages/HomePage";
 
-export default function App(){
+function useQueryKeys(): string[] {
+  const location = useLocation()
+  return Array.from(new URLSearchParams(location.search).keys())
+}
+
+// Функция для поиска группы или дочерней группы по id
+function findGroupById(groups: Group[], id: string): Group | undefined {
+  console.log('🔵 for id: ', id, 'groups:', groups)
+  for (const group of groups) {
+    console.log('group:', group)
+    if (group.id === id) return group
+
+    if (group.children) {
+      // рекурсивно ищем в потомках
+      const child = findGroupById(group.children, id)
+      if (child) return child
+    }
+  }
+
+  return undefined
+}
+
+function MainPage({ groups }: { groups: Group[] }) {
+  const keys = useQueryKeys()
+  const key = keys[0] // берём первый ключ, если есть
+
+  if (key) {
+    const group = findGroupById(groups, key)
+    console.log('🍎 group:', group)
+    if (group) {
+      console.log('🍎 <GroupPage:')
+      return <GroupPage group={group}/>
+    }
+  }
+
+  return <HomePage groups={groups} />
+}
+
+export default function App() {
   const [groups, setGroups] = useState<Group[]>([])
 
-  const path = '/data/scheme-groups.json'
-  useEffect(()=>{
-    fetch(path).then(r=>r.json()).then((g)=>setGroups(g))
-  },[])
-
-  console.log('🔵 path: ', path)
-  console.log('🔵 groups: ', groups)
+  useEffect(() => {
+    fetch('/data/scheme-groups.json')
+        .then(r => r.json())
+        .then(g => setGroups(g))
+  }, [])
 
   return (
       <BrowserRouter>
         <div className="site-container px-3 py-4">
           <Routes>
-            <Route path='/' element={<HomePage groups={groups} />} />
-            <Route path='/:groupId' element={<GroupPage groups={groups} />} />
+            <Route path="/" element={<MainPage groups={groups} />} />
           </Routes>
-          <footer className=" py-3">
+
+          <footer className="py-3">
             <div className="container text-center">
               <div className="col-lg-10 mx-auto">
                 <p className="text-muted mb-1">
@@ -39,14 +75,3 @@ export default function App(){
       </BrowserRouter>
   )
 }
-
-
-
-
-
-
-
-
-
-
-

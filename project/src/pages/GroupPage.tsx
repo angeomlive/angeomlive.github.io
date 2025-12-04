@@ -3,19 +3,8 @@ import {Link, useParams} from 'react-router-dom'
 import { Group } from '../types'
 import QuestionsBlock from "./QuestionBlock";
 
-export default function GroupPage({ groups }:{groups:Group[]}) {
-    const { groupId } = useParams<{ groupId: string }>();
-    const findGroupById = (groups: Group[], id: string | undefined): Group | undefined => {
-        for (const group of groups) {
-            if (group.id === id) return group;
-            if (group.children) {
-                const found = findGroupById(group.children, id);
-                if (found) return found;
-            }
-        }
-        return undefined;
-    };
-    const group = findGroupById(groups, groupId);
+export default function GroupPage({ group }:{group:Group}) {
+
 
     const renderList = (items: Group[], lvl = 0) => (
         <ul className="group-list-plain">
@@ -32,7 +21,7 @@ export default function GroupPage({ groups }:{groups:Group[]}) {
                                     : ''
                     }
                 >
-                    <Link to={`/${it.id}`} className="h3 text-decoration-none hover-underline">
+                    <Link to={`/?${it.id}`} className="h3 text-decoration-none hover-underline">
                         {it.name}
                     </Link>
                     {it.children && it.children.length > 0 && renderList(it.children, lvl + 1)}
@@ -41,6 +30,7 @@ export default function GroupPage({ groups }:{groups:Group[]}) {
         </ul>
     );
 
+    console.log('Page, group: ', group)
 
     let content;
     if (!group || (Array.isArray(group) && group.length === 0) || (typeof group === 'object' && Object.keys(group).length === 0)) {
@@ -50,7 +40,7 @@ export default function GroupPage({ groups }:{groups:Group[]}) {
         content = renderList(group.children)
     } else if (group.name) {
         // @ts-ignore
-        content =  <QuestionsBlock groupId={groupId} />
+        content =  <QuestionsBlock groupId={group.id} />
     } else {
         content = <div className="row justify-content-center">
             <div className="col-auto p-5">

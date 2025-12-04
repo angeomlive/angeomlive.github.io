@@ -28,7 +28,7 @@ export default function HomePage({ groups }: Props) {
                         <div className="col px-4 py-2" key={group.id}>
                             <div className="card border-0 rounded-0 h-100 ">
                                 {group.image && (
-                                    <Link to={`/${group.id}`} className="text-decoration-none">
+                                    <Link to={`/?${group.id}`} className="text-decoration-none">
                                         <div
                                             className="bg-dark rounded mb-2"
                                             style={{
@@ -42,7 +42,7 @@ export default function HomePage({ groups }: Props) {
                                     </Link>
                                 )}
                                 <h3 className="text-center p-3">
-                                    <Link to={`/${group.id}`} className="text-dark hover-underline">
+                                    <Link to={`/?${group.id}`} className="text-dark hover-underline">
                                         {group.name}
                                     </Link>
                                 </h3>
