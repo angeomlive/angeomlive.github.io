@@ -1,6 +1,6 @@
-# angeomlive
+# Angeom Live
 
-Интерактивный тренажёр по аналитической геометрии — минимальная современная implementation на React + TypeScript + Vite.
+### [https://angeomlive.github.io/](https://angeomlive.github.io/)
 
 ## Что внутри
 - React + TypeScript проект (Vite)
