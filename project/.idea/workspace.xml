@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f59d9a37-1fed-4fd4-b03f-a6887c614ff4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_AMS-Regular-BQhdFMY1-BQhdFMY1-BQhdFMY1.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_AMS-Regular-BQhdFMY1-BQhdFMY1.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_AMS-Regular-BQhdFMY1.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_AMS-Regular-DMm9YOAa-DMm9YOAa-DMm9YOAa.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_AMS-Regular-DMm9YOAa-DMm9YOAa.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_AMS-Regular-DMm9YOAa.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_AMS-Regular-DRggAlZN-DRggAlZN-DRggAlZN.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_AMS-Regular-DRggAlZN-DRggAlZN.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_AMS-Regular-DRggAlZN.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Bold-ATXxdsX0-ATXxdsX0-ATXxdsX0.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Bold-ATXxdsX0-ATXxdsX0.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Bold-ATXxdsX0.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Bold-BEiXGLvX-BEiXGLvX-BEiXGLvX.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Bold-BEiXGLvX-BEiXGLvX.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Bold-BEiXGLvX.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Bold-Dq_IR9rO-Dq_IR9rO-Dq_IR9rO.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Bold-Dq_IR9rO-Dq_IR9rO.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Bold-Dq_IR9rO.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Regular-CTRA-rTL-CTRA-rTL-CTRA-rTL.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Regular-CTRA-rTL-CTRA-rTL.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Regular-CTRA-rTL.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Regular-Di6jR-x--Di6jR-x--Di6jR-x-.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Regular-Di6jR-x--Di6jR-x-.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Regular-wX97UBjC-wX97UBjC-wX97UBjC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Regular-wX97UBjC-wX97UBjC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Caligraphic-Regular-wX97UBjC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Bold-BdnERNNW-BdnERNNW-BdnERNNW.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Bold-BdnERNNW-BdnERNNW.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Bold-BdnERNNW.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Bold-BsDP51OF-BsDP51OF-BsDP51OF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Bold-BsDP51OF-BsDP51OF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Bold-BsDP51OF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Bold-CL6g_b3V-CL6g_b3V-CL6g_b3V.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Bold-CL6g_b3V-CL6g_b3V.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Bold-CL6g_b3V.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Regular-CB_wures-CB_wures-CB_wures.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Regular-CB_wures-CB_wures.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Regular-CB_wures.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Regular-CTYiF6lA-CTYiF6lA-CTYiF6lA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Regular-CTYiF6lA-CTYiF6lA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Regular-CTYiF6lA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Regular-Dxdc4cR9-Dxdc4cR9-Dxdc4cR9.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Regular-Dxdc4cR9-Dxdc4cR9.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Fraktur-Regular-Dxdc4cR9.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Bold-Cx986IdX-Cx986IdX-Cx986IdX.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Bold-Cx986IdX-Cx986IdX.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Bold-Cx986IdX.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Bold-Jm3AIy58-Jm3AIy58-Jm3AIy58.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Bold-Jm3AIy58-Jm3AIy58.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Bold-Jm3AIy58.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Bold-waoOVXN0-waoOVXN0-waoOVXN0.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Bold-waoOVXN0-waoOVXN0.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Bold-waoOVXN0.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-BoldItalic-DxDJ3AOS-DxDJ3AOS-DxDJ3AOS.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-BoldItalic-DxDJ3AOS-DxDJ3AOS.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-BoldItalic-DxDJ3AOS.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-BoldItalic-DzxPMmG6-DzxPMmG6-DzxPMmG6.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-BoldItalic-DzxPMmG6-DzxPMmG6.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-BoldItalic-DzxPMmG6.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-BoldItalic-SpSLRI95-SpSLRI95-SpSLRI95.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-BoldItalic-SpSLRI95-SpSLRI95.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-BoldItalic-SpSLRI95.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Italic-3WenGoN9-3WenGoN9-3WenGoN9.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Italic-3WenGoN9-3WenGoN9.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Italic-3WenGoN9.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Italic-BMLOBm91-BMLOBm91-BMLOBm91.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Italic-BMLOBm91-BMLOBm91.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Italic-BMLOBm91.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Italic-NWA7e6Wa-NWA7e6Wa-NWA7e6Wa.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Italic-NWA7e6Wa-NWA7e6Wa.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Italic-NWA7e6Wa.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Regular-B22Nviop-B22Nviop-B22Nviop.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Regular-B22Nviop-B22Nviop.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Regular-B22Nviop.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Regular-Dr94JaBh-Dr94JaBh-Dr94JaBh.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Regular-Dr94JaBh-Dr94JaBh.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Regular-Dr94JaBh.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Regular-ypZvNtVU-ypZvNtVU-ypZvNtVU.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Regular-ypZvNtVU-ypZvNtVU.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Main-Regular-ypZvNtVU.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-BoldItalic-B3XSjfu4-B3XSjfu4-B3XSjfu4.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-BoldItalic-B3XSjfu4-B3XSjfu4.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-BoldItalic-B3XSjfu4.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-BoldItalic-CZnvNsCZ-CZnvNsCZ-CZnvNsCZ.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-BoldItalic-CZnvNsCZ-CZnvNsCZ.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-BoldItalic-CZnvNsCZ.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-BoldItalic-iY-2wyZ7-iY-2wyZ7-iY-2wyZ7.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-BoldItalic-iY-2wyZ7-iY-2wyZ7.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-BoldItalic-iY-2wyZ7.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-Italic-DA0__PXp-DA0__PXp-DA0__PXp.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-Italic-DA0__PXp-DA0__PXp.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-Italic-DA0__PXp.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-Italic-flOr_0UB-flOr_0UB-flOr_0UB.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-Italic-flOr_0UB-flOr_0UB.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-Italic-flOr_0UB.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-Italic-t53AETM--t53AETM--t53AETM-.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-Italic-t53AETM--t53AETM-.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Math-Italic-t53AETM-.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Bold-CFMepnvq-CFMepnvq-CFMepnvq.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Bold-CFMepnvq-CFMepnvq.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Bold-CFMepnvq.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Bold-D1sUS0GD-D1sUS0GD-D1sUS0GD.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Bold-D1sUS0GD-D1sUS0GD.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Bold-D1sUS0GD.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Bold-DbIhKOiC-DbIhKOiC-DbIhKOiC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Bold-DbIhKOiC-DbIhKOiC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Bold-DbIhKOiC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Italic-C3H0VqGB-C3H0VqGB-C3H0VqGB.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Italic-C3H0VqGB-C3H0VqGB.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Italic-C3H0VqGB.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Italic-DN2j7dab-DN2j7dab-DN2j7dab.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Italic-DN2j7dab-DN2j7dab.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Italic-DN2j7dab.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Italic-YYjJ1zSn-YYjJ1zSn-YYjJ1zSn.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Italic-YYjJ1zSn-YYjJ1zSn.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Italic-YYjJ1zSn.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Regular-BNo7hRIc-BNo7hRIc-BNo7hRIc.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Regular-BNo7hRIc-BNo7hRIc.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Regular-BNo7hRIc.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Regular-CS6fqUqJ-CS6fqUqJ-CS6fqUqJ.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Regular-CS6fqUqJ-CS6fqUqJ.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Regular-CS6fqUqJ.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Regular-DDBCnlJ7-DDBCnlJ7-DDBCnlJ7.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Regular-DDBCnlJ7-DDBCnlJ7.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_SansSerif-Regular-DDBCnlJ7.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Script-Regular-C5JkGWo--C5JkGWo--C5JkGWo-.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Script-Regular-C5JkGWo--C5JkGWo-.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Script-Regular-C5JkGWo-.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Script-Regular-D3wIWfF6-D3wIWfF6-D3wIWfF6.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Script-Regular-D3wIWfF6-D3wIWfF6.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Script-Regular-D3wIWfF6.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Script-Regular-D5yQViql-D5yQViql-D5yQViql.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Script-Regular-D5yQViql-D5yQViql.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Script-Regular-D5yQViql.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size1-Regular-C195tn64-C195tn64-C195tn64.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size1-Regular-C195tn64-C195tn64.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size1-Regular-C195tn64.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size1-Regular-Dbsnue_I-Dbsnue_I-Dbsnue_I.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size1-Regular-Dbsnue_I-Dbsnue_I.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size1-Regular-Dbsnue_I.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size1-Regular-mCD8mA8B-mCD8mA8B-mCD8mA8B.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size1-Regular-mCD8mA8B-mCD8mA8B.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size1-Regular-mCD8mA8B.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size2-Regular-B7gKUWhC-B7gKUWhC-B7gKUWhC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size2-Regular-B7gKUWhC-B7gKUWhC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size2-Regular-B7gKUWhC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size2-Regular-Dy4dx90m-Dy4dx90m-Dy4dx90m.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size2-Regular-Dy4dx90m-Dy4dx90m.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size2-Regular-Dy4dx90m.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size2-Regular-oD1tc_U0-oD1tc_U0-oD1tc_U0.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size2-Regular-oD1tc_U0-oD1tc_U0.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size2-Regular-oD1tc_U0.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size3-Regular-CTq5MqoE-CTq5MqoE-CTq5MqoE.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size3-Regular-CTq5MqoE-CTq5MqoE.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size3-Regular-CTq5MqoE.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size3-Regular-DgpXs0kz-DgpXs0kz-DgpXs0kz.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size3-Regular-DgpXs0kz-DgpXs0kz.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size3-Regular-DgpXs0kz.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size4-Regular-BF-4gkZK-BF-4gkZK-BF-4gkZK.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size4-Regular-BF-4gkZK-BF-4gkZK.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size4-Regular-BF-4gkZK.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size4-Regular-DWFBv043-DWFBv043-DWFBv043.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size4-Regular-DWFBv043-DWFBv043.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size4-Regular-DWFBv043.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size4-Regular-Dl5lxZxV-Dl5lxZxV-Dl5lxZxV.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size4-Regular-Dl5lxZxV-Dl5lxZxV.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Typewriter-Regular-C0xS9mPB-C0xS9mPB-C0xS9mPB.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Typewriter-Regular-C0xS9mPB-C0xS9mPB.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Typewriter-Regular-CO6r4hn1-CO6r4hn1-CO6r4hn1.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Typewriter-Regular-CO6r4hn1-CO6r4hn1.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Typewriter-Regular-D3Ib7_Hf-D3Ib7_Hf-D3Ib7_Hf.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Typewriter-Regular-D3Ib7_Hf-D3Ib7_Hf.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/index-CiAyUToG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/index-CoyZSTHz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/index-CqQ3ifTO.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/index-DOzYVnVD.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/index-Dl2UQYPR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/index-Dtnjakv7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../groups.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/pages/GroupPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/pages/HomePage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/pages/QuestionBlock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/pages/QuestionView.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/latex.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vite.config.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="36O16Dmhov0gH99g6dqMKy54pYH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.Debug Application.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/andrewlevin/Desktop/angeomlive.github.io/project/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Debug Application">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f59d9a37-1fed-4fd4-b03f-a6887c614ff4" name="Changes" comment="" />
+      <created>1764862626268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764862626268</updated>
+      <workItem from="1764862627269" duration="990000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
