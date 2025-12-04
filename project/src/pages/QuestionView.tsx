@@ -2,6 +2,37 @@ import {useEffect, useState} from "react";
 import {RenderLatex} from "../utils/latex";
 import {Question} from "../types";
 
+const DEFAULT_WIDTHS = [480, 768, 1024, 1440, 1920];
+
+interface ResponsiveImageProps {
+    src: string;
+}
+
+export const ResponsiveImage: React.FC<ResponsiveImageProps> = ({src}) => {
+    // Разделяем имя и расширение
+    const dotIndex = src.lastIndexOf(".");
+    const name = src.slice(0, dotIndex);
+    const ext = src.slice(dotIndex);
+
+    // Генерируем srcSet
+    const srcSet = DEFAULT_WIDTHS.map((w) => `${name}-${w}px${ext} ${w}w`).join(", ");
+
+    // Генерируем sizes, если не передан
+    const defaultSizes = DEFAULT_WIDTHS
+        .map((w) => `(max-width: ${w}px) ${w}px`)
+        .join(", ") + `, ${DEFAULT_WIDTHS[DEFAULT_WIDTHS.length - 1]}px`;
+
+    return (
+        <img
+            src={src}
+            srcSet={srcSet}
+            sizes={defaultSizes}
+            alt=""
+            className="mw-100"
+            style={{maxHeight: "50vh", objectFit: "contain"}}
+        />
+    );
+};
 
 export default function QuestionsView({question, groupId}: { question: Question, groupId: string; }) {
     const [selected, setSelected] = useState<number | null>(null);
@@ -25,10 +56,9 @@ export default function QuestionsView({question, groupId}: { question: Question,
         <div className="row block-question-view d-flex align-items-stretch justify-content-center mb-4">
             {question.image && (
                 <div className="col col-md-6 col-lg-5  p-4">
-                    <img className="mw-100"
-                         src={`data/${groupId}/${question.image}`}
-                         style={{maxHeight: "50vh", objectFit: "contain"}}
-                    />
+
+                    <ResponsiveImage src={`data/${groupId}/${question.image}`} />
+
                 </div>
             )}
             <div className={question.image ? "col col-md-6 col-lg-7  " : "col col-md-8"}>
@@ -108,10 +138,9 @@ export default function QuestionsView({question, groupId}: { question: Question,
                                     {question.explanation_image && (
                                         <div className="row justify-content-center">
                                             <div className={imageClassToggle}>
-                                                <img className="mw-100"
-                                                     src={`data/${groupId}/${question.explanation_image}`}
-                                                     style={{maxHeight: "70vh", objectFit: "contain"}}
-                                                />
+
+                                                <ResponsiveImage src={`data/${groupId}/${question.explanation_image}`} />
+
                                             </div>
                                         </div>
                                     )}
