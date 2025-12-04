@@ -1,7 +1,6 @@
 # Angeom Live
 
-![](logo-images/img-6125-exp-480px.jpg)
-
+[![](logo-images/img-6125-exp-480px.jpg)](https://angeomlive.github.io/)
 
 ### [https://angeomlive.github.io/](https://angeomlive.github.io/)
 
