@@ -1,0 +1,31 @@
+{
+  "name": "angeomlive",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp -r dist/* ./",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "js-cookie": "^3.0.5",
+    "katex": "^0.16.25",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.9.6"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/lodash": "^4.17.21",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.45.0",
+    "typescript": "^5.2.2",
+    "vite": "^7.2.4"
+  }
+}
