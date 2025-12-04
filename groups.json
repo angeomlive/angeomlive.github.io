@@ -5,14 +5,6 @@
     "image": "quadric-surfaces.png",
     "children": [
       {
-        "id": "geometric-properties",
-        "name": "Геометрические свойства"
-      },
-      {
-        "id": "grp-find-by-pic",
-        "name": "Нахождение уравнения по картинке"
-      },
-      {
         "id": "identify-by-image",
         "name": "Определение названия по картинке"
       },
@@ -21,8 +13,16 @@
         "name": "Определение названия по уравнению"
       },
       {
+        "id": "equation-from-image",
+        "name": "Нахождение уравнения по картинке"
+      },
+      {
         "id": "sections-parallel-to-coordinate-planes",
         "name": "Сечения, параллельные координатным плоскостям"
+      },
+      {
+        "id": "geometric-properties",
+        "name": "Геометрические свойства"
       },
       {
         "id": "test",

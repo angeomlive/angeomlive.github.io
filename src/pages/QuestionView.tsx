@@ -24,14 +24,14 @@ export default function QuestionsView({question, pathGroupData}: { question: Que
     return (
         <div className="row block-question-view d-flex align-items-stretch justify-content-center mb-4">
             {question.image && (
-                <div className="col col-md-5 p-4">
+                <div className="col col-md-6 col-lg-5  p-4">
                     <img className="mw-100"
                          src={`${pathGroupData}/${question.image}`}
                          style={{maxHeight: "50vh", objectFit: "contain"}}
                     />
                 </div>
             )}
-            <div className={question.image ? "col-12 col-md-7 " : "col-12 col-md-8"}>
+            <div className={question.image ? "col col-md-6 col-lg-7  " : "col col-md-8"}>
                 <div className="row">
                     <div className="col">
                         <div className="text-muted fw-light mb-2">Вопрос №{question.id}</div>
