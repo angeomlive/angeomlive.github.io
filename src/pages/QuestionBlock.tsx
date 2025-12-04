@@ -48,12 +48,6 @@ const QuestionsBlock = ({ groupId }: { groupId: string }) => {
                               </button>
                           </div>
                       </div>
-
-                      <div className="row justify-content-center mb-5">
-                          <div className="col-auto">
-                              <p>Осталось: {questions.length - 1}</p>
-                          </div>
-                      </div>
                   </>
                   :
                   <div className="text-center">
