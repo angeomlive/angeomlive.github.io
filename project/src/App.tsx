@@ -33,9 +33,7 @@ function MainPage({ groups }: { groups: Group[] }) {
 
   if (key) {
     const group = findGroupById(groups, key)
-    console.log('🍎 group:', group)
     if (group) {
-      console.log('🍎 <GroupPage:')
       return <GroupPage group={group}/>
     }
   }
