@@ -5,15 +5,13 @@
 ### [https://angeomlive.github.io/](https://angeomlive.github.io/)
 
 
-## Что внутри
+## About
 - React + TypeScript проект (Vite)
 - KaTeX для рендеринга формул (быстро и эффективно)
-- Bootstrap 5 через CDN для аккуратного современного оформления
-- Файлы групп: `groups.json` в корне
-- Вопросы в `/data/grp-*.json`
-- Куки для сохранения счётчика
+- Bootstrap 5
 
-## Запуск (локально)
+## Install
+0. `cd project`
 1. `npm install`
 2. `npm run dev`
 3. Открыть `http://localhost:5173`
