@@ -29,10 +29,10 @@ export default function QuestionsView({question, groupId}: { question: Question,
                 </div>
             )}
             <div className={question.image ? "col col-md-6 col-lg-7  " : "col col-md-8"}>
-                <div className="row">
+                <div className="row mb-3">
                     <div className="col">
                         <div className="text-muted fw-light mb-2">Вопрос №{question.id}</div>
-                        <div className="fs-5 fw-light mb-3 ">
+                        <div className="fs-5 fw-light lh-1">
                             <RenderLatex>{question.text}</RenderLatex>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ export default function QuestionsView({question, groupId}: { question: Question,
                         <form className="question-form" onSubmit={(e) => e.preventDefault()}>
                             <div className="row justify-content-center mb-3">
                                 <div className={imageClassToggle}>
-                                    {question.options.map((opt, i) => {
+                                    {(question.options || []).map((opt, i) => {
                                         const isSelected = selected === i;
                                         let bgClass = "";
 
@@ -85,7 +85,7 @@ export default function QuestionsView({question, groupId}: { question: Question,
                                 <>
                                     <div className="row justify-content-center">
                                         <div className={imageClassToggle}>
-                                            {selected !== null && question.options[selected].istrue ?
+                                            {selected !== null && (question.options || [])[selected].istrue ?
                                                 <div className="fs-6 fw-light alert alert-success"
                                                      role="alert">Верно!</div> :
                                                 <div className="fs-6 fw-light alert alert-danger"

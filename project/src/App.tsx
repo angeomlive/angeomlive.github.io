@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Group } from './types'
-import QuestionsBlock from "./QuestionBlock";
+import QuestionsBlock from "./QuestionRandom";
 
 // Функция для поиска группы или дочерней группы по id
 function findGroupById(groups: Group[], id: string): Group | undefined {
@@ -48,10 +48,9 @@ export default function App() {
       : null;
 
   return (
-      <div className="container px-3 py-4" style={{maxWidth: '1200px'}}>
-
-        <header className="py-2 mb-3">
-          <div className="container text-center">
+      <div className="container p-3" style={{maxWidth: '1200px'}}>
+        <header>
+          <div className="row text-center py-2 mb-1">
             <div className="col-lg-10 mx-auto">
               <h1 className="h2 fw-bold mb-3">
                 <a href="/" className="text-dark hover-underline">Аналитическая геометрия</a>
@@ -61,10 +60,7 @@ export default function App() {
               </p>
             </div>
           </div>
-        </header>
-
-        {group ?
-            <>
+          {group && (
               <div className="row justify-content-center mb-4">
                 <div className="hline col-lg-10 mx-auto  text-center" style={{maxWidth: '960px', opacity: '0.2',}}>
                   <div className="hline-opacity hline-left"></div>
@@ -72,11 +68,17 @@ export default function App() {
                   <div className="hline-opacity hline-right"></div>
                 </div>
               </div>
+          )}
+        </header>
 
+        <main>
+        {group ?
+            // CASE - SHOW Questions GROUPS or Single Question
+            <>
               {group.children && group.children.length > 0 ?
-                  // SHOW GROUPS PAGE
-                  <div className="row">
-                    <div className="col">
+                  // CASE - SHOW GROUPS PAGE
+                  <div className="row justify-content-center">
+                    <div className="col-md-8">
                       <ul className="group-list-plain">
                         {group.children.map((it, idx) => (
                             <li key={it.id} className={getNestedClass(idx + 1)}>
@@ -88,15 +90,14 @@ export default function App() {
                     </div>
                   </div>
                   :
-                  // SHOW QUESTION BLOCK
+                  // CASE - SHOW Single Question
                   <QuestionsBlock groupId={group.id} />
               }
-            </>
-            :
-            // SHOW HOME PAGE
-            <div className="row row-cols-2 px-4 mb-5">
+            </> :
+            // CASE -  SHOW HOME PAGE
+            <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3 pt-4 px-4 mb-5">
               {groups.map(group => (
-                  <div className="col px-4 py-2" key={group.id}>
+                  <div className="col p-4 mb-5" key={group.id}>
                     <div className="card border-0 rounded-0 h-100 ">
                       {group.image && (
                           <a href={`/?${group.id}`} className="text-decoration-none">
@@ -114,18 +115,19 @@ export default function App() {
               ))}
             </div>
         }
-
-        <footer className="row fixed-bottom py-3">
-          <div className="col-lg-10 mx-auto text-center">
-            <p className="text-muted mb-1">
-              © Механико-математический факультет, Кафедра высшей геометрии и топологии
-            </p>
-            <p className="text-muted mb-0">
-              e-mail: ssmirnov at higeom.math.msu.su
-            </p>
+        </main>
+        <footer>
+          <div className="row py-3">
+            <div className="col-lg-10 mx-auto text-center">
+              <p className="text-muted mb-1">
+                © Механико-математический факультет, Кафедра высшей геометрии и топологии
+              </p>
+              <p className="text-muted mb-0">
+                e-mail: ssmirnov at higeom.math.msu.su
+              </p>
+            </div>
           </div>
         </footer>
-
       </div>
   )
 }

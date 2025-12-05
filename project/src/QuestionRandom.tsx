@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import QuestionsView from "./QuestionView";
+import QuestionsView from "./QuestionDetails";
 import {Question} from "./types";
 import shuffle from "lodash/shuffle";
 

@@ -3,7 +3,6 @@
     --glass-bg: rgba(255,255,255,0.6);
     --glass-border: rgba(255,255,255,0.25);
 }
-
 body {
     line-height: 1.7;
     color: #111;
@@ -11,6 +10,9 @@ body {
     font-style: normal;
     font-size: 14px;
     background: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .site-container{
@@ -160,7 +162,14 @@ footer.site-footer {
 .hline-right {
     background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0));
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
 
+main {
+    flex: 1;
+}
 
 
 
