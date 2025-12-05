@@ -1,8 +1,8 @@
 # Angeom Live
 
-[![](logo-images/logo-img-6125-exp-600px.png)](https://angeomlive.math.msu.ru/)
+[![](logo-images/logo-img-6125-exp-600px.png)](https://angeomlive.github.io/)
 
-### [https://angeomlive.math.msu.ru/](https://angeomlive.math.msu.ru/)
+### [https://angeomlive.github.io/](https://angeomlive.github.io/)
 
 
 ## Что внутри
