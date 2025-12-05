@@ -22,13 +22,13 @@ export default function QuestionsView({question, groupId}: { question: Question,
     return (
         <div className="row block-question-view d-flex align-items-stretch justify-content-center mb-5">
             {question.image && (
-                <div className="col col-md-6 col-lg-5  p-4">
+                <div className="col-12 col-md-6 col-lg-5  p-4">
 
                     <ResponsivePic src={`data/${groupId}/${question.image}`} />
 
                 </div>
             )}
-            <div className={question.image ? "col col-md-6 col-lg-7  " : "col col-md-8"}>
+            <div className={question.image ? "col-12 col-md-6 col-lg-7  " : "col col-md-8"}>
                 <div className="row mb-3">
                     <div className="col">
                         <div className="text-muted fw-light mb-2">Вопрос №{question.id}</div>
@@ -76,7 +76,7 @@ export default function QuestionsView({question, groupId}: { question: Question,
                             </div>
                             {!checked && (
                                 <div className="row justify-content-center">
-                                    <div className={question.image ? "col d-flex" : "col d-flex justify-content-center"}>
+                                    <div className={`col d-flex justify-content-center p-0 m-0 ${question.image ? "justify-content-md-start" : ""}`}>
                                         <button className="btn btn-success rounded-1" onClick={handleCheck}>Проверить</button>
                                     </div>
                                 </div>
