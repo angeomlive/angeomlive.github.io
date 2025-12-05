@@ -126,22 +126,40 @@ footer.site-footer {
     max-width: 960px;
 }
 
-.white-line-opacity {
+
+
+.home-card-image-box{
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+    width: 100%;
+}
+
+.hline{
+    max-width: 960px;
+    opacity: 0.2;
+}
+
+.hline-opacity {
     display: table-cell;
     min-width: 200px;
     height: 1px;
 }
 
-.white-line {
+.hline-center {
     width: 100%;
     height: 1px;
     display: table-cell;
+    background: #000000;
 }
 
+.hline-left {
+    background-image: linear-gradient(to left, #000000, rgba(0, 0, 0, 0));
+}
 
-
-
-
+.hline-right {
+    background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0));
+}
 
 
 

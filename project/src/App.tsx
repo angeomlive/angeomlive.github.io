@@ -1,48 +1,35 @@
 import React, { useEffect, useState } from 'react'
 import { Group } from './types'
-import GroupPage from './pages/GroupPage'
-import HomePage from './pages/HomePage'
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
-import 'katex/dist/katex.min.css'
-
-function useQueryKeys(): string[] {
-  const location = useLocation()
-  return Array.from(new URLSearchParams(location.search).keys())
-}
+import QuestionsBlock from "./QuestionBlock";
 
 // Функция для поиска группы или дочерней группы по id
 function findGroupById(groups: Group[], id: string): Group | undefined {
-  console.log('🔵 for id: ', id, 'groups:', groups)
   for (const group of groups) {
-    console.log('group:', group)
     if (group.id === id) return group
 
     if (group.children) {
-      // рекурсивно ищем в потомках
       const child = findGroupById(group.children, id)
       if (child) return child
     }
   }
-
   return undefined
 }
 
-function MainPage({ groups }: { groups: Group[] }) {
-  const keys = useQueryKeys()
-  const key = keys[0] // берём первый ключ, если есть
-
-  if (key) {
-    const group = findGroupById(groups, key)
-    if (group) {
-      return <GroupPage group={group}/>
-    }
+const getNestedClass = (level: number) => {
+  switch (level) {
+    case 1:
+      return 'nested-level-1';
+    case 2:
+      return 'nested-level-2';
+    default:
+      return level >= 3 ? 'nested-level-3' : '';
   }
+};
 
-  return <HomePage groups={groups} />
-}
 
 export default function App() {
   const [groups, setGroups] = useState<Group[]>([])
+  const [key, setKey] = React.useState<string | null>(null);
 
   useEffect(() => {
     fetch('/data/scheme-groups.json')
@@ -50,26 +37,95 @@ export default function App() {
         .then(g => setGroups(g))
   }, [])
 
-  return (
-      <BrowserRouter>
-        <div className="site-container px-3 py-4">
-          <Routes>
-            <Route path="/" element={<MainPage groups={groups} />} />
-          </Routes>
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    // @ts-ignore
+    setKey(Array.from(params.keys())[0]);
+  }, []);
 
-          <footer className="py-3">
-            <div className="container text-center">
-              <div className="col-lg-10 mx-auto">
-                <p className="text-muted mb-1">
-                  © Механико-математический факультет, Кафедра высшей геометрии и топологии
-                </p>
-                <p className="text-muted mb-0">
-                  e-mail: ssmirnov at higeom.math.msu.su
-                </p>
-              </div>
+  const group = groups.length > 0 && key
+      ? findGroupById(groups, key)
+      : null;
+
+  return (
+      <div className="container px-3 py-4" style={{maxWidth: '1200px'}}>
+
+        <header className="py-2 mb-3">
+          <div className="container text-center">
+            <div className="col-lg-10 mx-auto">
+              <h1 className="h2 fw-bold mb-3">
+                <a href="/" className="text-dark hover-underline">Аналитическая геометрия</a>
+              </h1>
+              <p className="mb-0 text-dark fw-light fs-5 lh-base mb-3">
+                {group ? group.name : 'Проверь свои знания по курсу аналитической геометрии' }
+              </p>
             </div>
-          </footer>
-        </div>
-      </BrowserRouter>
+          </div>
+        </header>
+
+        {group ?
+            <>
+              <div className="row justify-content-center mb-4">
+                <div className="hline col-lg-10 mx-auto  text-center" style={{maxWidth: '960px', opacity: '0.2',}}>
+                  <div className="hline-opacity hline-left"></div>
+                  <div className="hline-center"></div>
+                  <div className="hline-opacity hline-right"></div>
+                </div>
+              </div>
+
+              {group.children && group.children.length > 0 ?
+                  // SHOW GROUPS PAGE
+                  <div className="row">
+                    <div className="col">
+                      <ul className="group-list-plain">
+                        {group.children.map((it, idx) => (
+                            <li key={it.id} className={getNestedClass(idx + 1)}>
+                              <a href={`/?${it.id}`} className="h3 text-decoration-none hover-underline">
+                                {it.name}</a>
+                            </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  :
+                  // SHOW QUESTION BLOCK
+                  <QuestionsBlock groupId={group.id} />
+              }
+            </>
+            :
+            // SHOW HOME PAGE
+            <div className="row row-cols-2 px-4 mb-5">
+              {groups.map(group => (
+                  <div className="col px-4 py-2" key={group.id}>
+                    <div className="card border-0 rounded-0 h-100 ">
+                      {group.image && (
+                          <a href={`/?${group.id}`} className="text-decoration-none">
+                            <div className="home-card-image-box bg-dark rounded mb-2"
+                                 style={{backgroundImage: `url(/data/${group.image})`}}
+                            ></div>
+                          </a>
+                      )}
+                      <h3 className="text-center p-3">
+                        <a href={`/?${group.id}`} className="text-dark hover-underline">
+                          {group.name}</a>
+                      </h3>
+                    </div>
+                  </div>
+              ))}
+            </div>
+        }
+
+        <footer className="row fixed-bottom py-3">
+          <div className="col-lg-10 mx-auto text-center">
+            <p className="text-muted mb-1">
+              © Механико-математический факультет, Кафедра высшей геометрии и топологии
+            </p>
+            <p className="text-muted mb-0">
+              e-mail: ssmirnov at higeom.math.msu.su
+            </p>
+          </div>
+        </footer>
+
+      </div>
   )
 }
