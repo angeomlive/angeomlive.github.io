@@ -117,7 +117,7 @@ export default function App() {
         }
         </main>
         <footer>
-          <div className="row py-3">
+          <div className="row pt-5 py-3">
             <div className="col-lg-10 mx-auto text-center">
               <p className="text-muted mb-1">
                 © Механико-математический факультет, Кафедра высшей геометрии и топологии

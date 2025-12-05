@@ -162,16 +162,6 @@ footer.site-footer {
 .hline-right {
     background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0));
 }
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
-}
-
-
 
 
 

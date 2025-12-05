@@ -20,7 +20,7 @@ export default function QuestionsView({question, groupId}: { question: Question,
     const imageClassToggle = question.image ? "col" : "col col-md-9 offset-md-3"
 
     return (
-        <div className="row block-question-view d-flex align-items-stretch justify-content-center mb-4">
+        <div className="row block-question-view d-flex align-items-stretch justify-content-center mb-5">
             {question.image && (
                 <div className="col col-md-6 col-lg-5  p-4">
 
@@ -32,7 +32,7 @@ export default function QuestionsView({question, groupId}: { question: Question,
                 <div className="row mb-3">
                     <div className="col">
                         <div className="text-muted fw-light mb-2">Вопрос №{question.id}</div>
-                        <div className="fs-5 fw-light lh-1">
+                        <div className="fs-5 fw-light">
                             <RenderLatex>{question.text}</RenderLatex>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export default function QuestionsView({question, groupId}: { question: Question,
                 <div className="row justify-content-center">
                     <div className="col">
                         <form className="question-form" onSubmit={(e) => e.preventDefault()}>
-                            <div className="row justify-content-center mb-3">
+                            <div className="row justify-content-center mb-4">
                                 <div className={imageClassToggle}>
                                     {(question.options || []).map((opt, i) => {
                                         const isSelected = selected === i;
@@ -56,7 +56,7 @@ export default function QuestionsView({question, groupId}: { question: Question,
                                         }
 
                                         return (
-                                            <div className="form-check d-flex align-items-center" key={i} style={{display: "block",}}>
+                                            <div className="form-check d-flex align-items-center mb-2" key={i} style={{display: "block",}}>
                                                 <input
                                                     id={`option-${i}`}
                                                     className="form-check-input mx-2"
